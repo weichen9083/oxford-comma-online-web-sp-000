@@ -4,7 +4,7 @@ def oxford_comma(array)
    when 1
      "#{array[0]}"
    when 2
-     array.split("and")
+     array.join("and")
    when 3
      
    end 
