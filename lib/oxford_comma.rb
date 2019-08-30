@@ -1,5 +1,5 @@
 def oxford_comma(array)
-  x=[]
+  x=arry.last
   array.each do |name|
     x<<name 
   end 
