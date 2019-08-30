@@ -2,8 +2,7 @@ def oxford_comma(array)
  
  case array 
    when array.size == 1 
-     x = array.join
-     x 
+     "#{array[0]}"
    when array.size == 2
    when array.size >= 3 
    end 
